@@ -11,8 +11,8 @@ extension Double {
    /**
     * detect if given number has decimals or not
     */
-   func isInteger(_ number: Double) -> Bool {
-       return floor(number) == number
+   func isInteger() -> Bool {
+       return floor(self) == self
    }
 }
 ```
