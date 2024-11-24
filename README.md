@@ -5,6 +5,18 @@ Useful set of swift ui extensions.
 ## why not a package?
 Usually a package would be great so that you can just add as dependency and you are done. But then you get all extension no matter if you need them. So here is just a list and you copy what you need.
 
+## Double
+```swift
+extension Double {
+   /**
+    * detect if given number has decimals or not
+    */
+   func isInteger(_ number: Double) -> Bool {
+       return floor(number) == number
+   }
+}
+```
+
 ## Int
 ```swift
 extension Int {
@@ -20,6 +32,7 @@ extension Int {
    }
 }
 ```
+
 ## String
 ```swift
 extension String {
